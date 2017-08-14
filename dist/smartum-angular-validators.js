@@ -1,5 +1,5 @@
 /**
- * smartum-angular-validators v0.6.0
+ * smartum-angular-validators v0.6.1
  */
 
 (function(root, factory) {
@@ -136,7 +136,7 @@
                         return '';
                     }
 
-                    var upped = modelValue.toUpperCase(),
+                    var upped = modelValue.toUpperCase().replace(/\s/gi, ''),
                         start = elem[0].selectionStart;
 
                     if (upped !== modelValue) {

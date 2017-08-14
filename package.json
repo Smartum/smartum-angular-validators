@@ -1,7 +1,7 @@
 {
   "name": "smartum-angular-validators",
   "description": "Angular.js validators.",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "private": true,
   "homepage": "https://github.com/Smartum/smartum-angular-validators",
   "repository": {
