@@ -1,0 +1,22 @@
+{
+    "name": "smartum-angular-validators",
+    "version": "0.6.0",
+    "authors": [
+        "Atte Backman <atte.backman@smartum.fi>"
+    ],
+    "description": "Angular.js input validators.",
+    "main": "./dist/smartum-angular-validators.js",
+    "private": true,
+    "ignore": [],
+    "dependencies": {
+        "angular": ">=1.3.0",
+        "moment": "~2.10.2",
+        "requirejs": "~2.1.17"
+    },
+    "devDependencies": {
+        "angular-mocks": ">=1.3.0",
+        "angular-messages": ">=1.3.0",
+        "jquery": "2.1.3"
+    },
+    "homepage": "https://bitbucket.org/smartum/smartum-angular-validators"
+}

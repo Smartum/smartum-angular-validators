@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html data-ng-app>
+    <head>
+        <title>smartum-angular-validators examples</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+        <style>
+            body {
+                font-family: "courier new", courier, typewriter, monospace;
+            }
+
+            label {
+                display: block;
+                font-weight: bold;
+            }
+
+            p {
+                border: solid 0 #afafaf;
+                border-bottom-width: 2px;
+                padding-bottom: 4px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <form name="form">
+            <p>
+                <label for="businessId">Business ID</label>
+
+                <input id="businessId" name="businessId" type="text" data-ng-model="businessId" data-business-id required>
+
+                <span data-ng-messages="form.businessId.$error" style="color: red">
+                    <span data-ng-message="businessId">Invalid!</span>
+                    <span data-ng-message="required">Required!</span>
+                </span>
+            </p>
+
+            <p>
+                <label for="businessId">SSN</label>
+
+                <input id="ssn" name="ssn" type="text" data-ng-model="ssn" data-ssn required>
+
+                <span data-ng-messages="form.ssn.$error" style="color: red">
+                    <span data-ng-message="ssn">Invalid!</span>
+                    <span data-ng-message="required">Required!</span>
+                </span>
+            </p>
+
+            <p>
+                <label for="iban">IBAN</label>
+
+                <input id="iban" name="iban" type="text" data-ng-model="iban" data-iban required>
+
+                <span data-ng-messages="form.iban.$error" style="color: red">
+                    <span data-ng-message="iban">Invalid!</span>
+                    <span data-ng-message="required">Required!</span>
+                </span>
+            </p>
+
+            <p>
+                <label for="phone">International phone number</label>
+
+                <input id="phone" name="phone" type="text" data-ng-model="phone" data-phone required>
+
+                <span data-ng-messages="form.phone.$error" style="color: red">
+                    <span data-ng-message="phone">Invalid!</span>
+                    <span data-ng-message="required">Required!</span>
+                </span>
+            </p>
+        </form>
+
+        <script src="../bower_components/requirejs/require.js" data-main="main"></script>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+(function (root, factory) {
+    'use strict';
+
+    if (typeof define === 'function' && define.amd) {
+        define(['angular', 'moment'], factory);
+    } else {
+        factory(root.angular, root.moment);
+    }
+}(this, function(angular, moment) {
+    'use strict';
