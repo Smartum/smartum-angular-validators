@@ -3,13 +3,13 @@
   "description": "Angular.js validators.",
   "version": "0.6.0",
   "private": true,
-  "homepage": "https://bitbucket.org/smartum/smartum-angular-validators",
+  "homepage": "https://github.com/Smartum/smartum-angular-validators",
   "repository": {
     "type": "git",
-    "url": "git clone git@bitbucket.org:smartum/smartum-angular-validators.git"
+    "url": "git clone git@github.com:Smartum/smartum-angular-validators.git"
   },
   "bugs": {
-    "url": "https://bitbucket.org/smartum/smartum-angular-validators/issues"
+    "url": "https://github.com/Smartum/smartum-angular-validators/issues"
   },
   "devDependencies": {
     "grunt": "0.4.5",

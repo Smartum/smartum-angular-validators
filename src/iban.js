@@ -8,7 +8,7 @@ module.directive('iban', function () {
                     return '';
                 }
 
-                var upped = modelValue.toUpperCase(), start = elem[0].selectionStart;
+                var upped = modelValue.toUpperCase().replace(/\s/gi, ''), start = elem[0].selectionStart;
 
                 if (upped !== modelValue) {
                     ngModel.$setViewValue(upped);
